@@ -64,4 +64,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #684da3;
+  
+  color: #fff; font-size: 1em; font-weight: bold;
 }

@@ -1,3 +1,18 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body {
+  background-color: #684da3;
+  
+  color: #fff;
+  font-size: 8em;
+  font-weight: bold;
+}
+
+
 span {
   display: inline-block;
   position: relative;
@@ -45,18 +60,4 @@ span:hover:after {
 }
 span + span {
   margin-left: 0.1em;
-}
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
-body {
-  background-color: #684da3;
-  
-  color: #fff;
-  font-size: 8em;
-  font-weight: bold;
 }

@@ -58,6 +58,3 @@ span:hover:after {
   -webkit-transform: rotateY(-10deg);
           transform: rotateY(-10deg);
 }
-span + span {
-  margin-left: 0.1em;
-}

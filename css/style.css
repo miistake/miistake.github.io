@@ -7,8 +7,8 @@ span {
           perspective: 500;
   -webkit-font-smoothing: antialiased;
 }
-span::before,
-span::after {
+span:before,
+span:after {
   display: none;
   position: absolute;
   top: 0;
@@ -20,26 +20,26 @@ span::after {
           transition: all ease-out 0.3s;
   content: attr(data-text);
 }
-span::before {
+span:before {
   z-index: 1;
   color: rgba(0,0,0,0.2);
   -webkit-transform: scale(1.1, 1) skew(0deg, 20deg);
       -ms-transform: scale(1.1, 1) skew(0deg, 20deg);
           transform: scale(1.1, 1) skew(0deg, 20deg);
 }
-span::after {
+span:after {
   z-index: 2;
   color: #684da3;
   text-shadow: -1px 0 1px #684da3, 1px 0 1px rgba(0,0,0,0.8);
   -webkit-transform: rotateY(-40deg);
           transform: rotateY(-40deg);
 }
-span:hover::before {
+span:hover:before {
   -webkit-transform: scale(1.1, 1) skew(0deg, 5deg);
       -ms-transform: scale(1.1, 1) skew(0deg, 5deg);
           transform: scale(1.1, 1) skew(0deg, 5deg);
 }
-span:hover::after {
+span:hover:after {
   -webkit-transform: rotateY(-10deg);
           transform: rotateY(-10deg);
 }
@@ -54,16 +54,9 @@ body {
   height: 100%;
 }
 body {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   background-color: #684da3;
   
-  color: #fff; font-size: 1em; font-weight: bold;
+  color: #fff;
+  font-size: 8em;
+  font-weight: bold;
 }

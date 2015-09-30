@@ -24,7 +24,7 @@ span {
 }
 span:before,
 span:after {
-  display: none;
+  display: inline-block;
   position: absolute;
   top: 0;
   left: -1px;

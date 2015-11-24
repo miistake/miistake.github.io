@@ -45,8 +45,8 @@ span:before {
 }
 span:after {
   z-index: 2;
-  color: #684da3;
-  text-shadow: -1px 0 1px #684da3, 1px 0 1px rgba(0,0,0,0.8);
+  color: #4FC1E9;
+  text-shadow: -1px 0 1px #4FC1E9, 1px 0 1px rgba(0,0,0,0.8);
   -webkit-transform: rotateY(-40deg);
           transform: rotateY(-40deg);
 }
